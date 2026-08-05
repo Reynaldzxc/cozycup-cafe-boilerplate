@@ -213,15 +213,82 @@ nav a:hover {
     top: 42%;
     transform: translate(0%, -15%) rotate(90deg);
 }
-.menu {
-    padding: 100px 0;
-    text-align: center;
+/* =========================
+   MENU SECTION
+========================= */
+
+.menu{
+    background:#F8F3EB;
+    padding:80px 10%;
 }
 
-.menu h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+.menu-title{
+    text-align:center;
+    font-size:42px;
+    color:#4B2E2E;
+    margin-bottom:50px;
 }
+
+.menu-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.menu-card{
+    width:350px;
+    background:#FFF8F0;
+    border-radius:18px;
+    padding:20px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-8px);
+}
+
+.menu-content{
+    flex:1;
+}
+
+.menu-content h3{
+    color:#5B3A29;
+    margin-bottom:15px;
+}
+
+.menu-content ul{
+    padding-left:20px;
+    line-height:1.8;
+    color:#555;
+}
+
+.menu-content a{
+    display:inline-block;
+    margin-top:12px;
+    text-decoration:none;
+    color:#6F4E37;
+    font-weight:bold;
+}
+
+.menu-content a:hover{
+    color:#A66A3F;
+}
+
+.menu-card img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-left:20px;
+}
+
 
 .about {
     padding: 100px 0;
