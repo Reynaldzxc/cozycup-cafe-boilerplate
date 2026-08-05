@@ -1,4 +1,23 @@
-/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -13,7 +32,20 @@ body {
 header {
     background: linear-gradient(to right, #f8f2e0, #4c3c32);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-    padding: 6px 0;
+    padding:5px 6px 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f2e0;
+    color: #4c3c32;
+
+    padding-top: 90px; /* Space for the fixed navbar */
 }
 
 nav {
@@ -48,34 +80,139 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    position: relative;
+    overflow: hidden;
+    background-image: url("../img/coffee_background.jpg");
     background-size: cover;
-    color: black;
+    background-repeat: no-repeat;
+    background-position: center 90%;
+
+    color: white;
+
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+.hero::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 38%;
+
+    background: linear-gradient(
+        to bottom,
+        transparent 0%,
+        rgba(217,217,217,.1) 35%,
+        rgba(110,65,36,.55) 80%,
+        #6E4124 100%
+    );
+
+    z-index: 1;
 }
 
 .hero p {
     font-size: 18px;
     margin-bottom: 40px;
+    
 }
 
+.glass-card {
+    width: 800px;
+    max-width: 90%;
+    position: relative;
+    z-index: 2;
+    margin-top: 30px;
+    padding: 50px 40px;
+    transform: translateY(80px);
+    border-radius: 35px;
+
+    background: hsla(0, 0%, 100%, 0.293);
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255,255,255,.25);
+
+    box-shadow: 0 8px 32px rgba(0,0,0,.25);
+}
+.hero h1 {
+    position: relative;
+    z-index: 4;
+    font-family: "Inter", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #6E4124;
+    transform: translateY(-190px);
+    text-shadow:
+        0 10px 40px rgba(0, 0, 0, 0.25),
+        0 0 40px rgba(255, 255, 255, 0.4);
+}
+
+.glass-card p {
+    font-family: "Inter", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #6E4124;
+    
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #4c3c32;
+
+    background: #8B4A22;
     color: white;
+
+    padding: 15px 40px;
+
+    border-radius: 50px;
+
     text-decoration: none;
-    border-radius: 5px;
+    font-weight: bold;
+
+    transition: 0.3s;
 }
 
 .cta-button:hover {
-    background-color: #7e685b;
+    background: #6f3715;
+    transform: translateY(-3px);
+}
+.coffee-beans {
+    position: absolute;
+
+    left: 50%;
+    top: 42%;
+
+    transform: translate(-100%, -30%) rotate(90deg);
+
+    width: 50%;
+
+    z-index: 1;
+
+    /* Soft shadow */
+    filter: drop-shadow(0 10px 30px hsla(0, 0%, 0%, 0.689));
 }
 
+
+.coffee-beans.left {
+    left: 50%;
+    top: 42%;
+    transform: translate(-100%, -15%) rotate(-90deg)  scaleX(-1);
+}
+
+
+.coffee-beans.right {
+    left: 50%;
+    top: 42%;
+    transform: translate(0%, -15%) rotate(90deg);
+}
 .menu {
     padding: 100px 0;
     text-align: center;
