@@ -30,8 +30,12 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #f8f2e0, #4c3c32);
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(
+    to right,
+    #f8f2e0 -20%,
+    #4c3c32 100%
+    );
+    box-shadow: 0 5px 20px #000000cf;
     padding:5px 6px 0;
 
     position: fixed;
@@ -45,18 +49,18 @@ body {
     background-color: #f8f2e0;
     color: #4c3c32;
 
-    padding-top: 90px; /* Space for the fixed navbar */
+    padding-top: 0px; 
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
+    padding: 0 50px;
 }
 
 .logo img {
-    max-width:80px;
+    max-width:60px;
 }
 
 nav ul {
@@ -85,10 +89,10 @@ nav a:hover {
     background-image: url("../img/coffee_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 90%;
-
+    background-position: center 70%;
+    box-shadow: 0 5px 20px #000000cf;
     color: white;
-
+    z-index: 3;
     font-family: "Inter", sans-serif;
     min-height: 100vh;
     display: flex;
@@ -117,8 +121,8 @@ nav a:hover {
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 16px;
+    margin-bottom: 35px;
     
 }
 
@@ -127,9 +131,9 @@ nav a:hover {
     max-width: 90%;
     position: relative;
     z-index: 2;
-    margin-top: 30px;
-    padding: 50px 40px;
-    transform: translateY(80px);
+    margin-top: 50px;
+    padding: 20px 40px;
+    transform: translateY(110px);
     border-radius: 35px;
 
     background: hsla(0, 0%, 100%, 0.293);
@@ -149,10 +153,10 @@ nav a:hover {
     font-weight: 900;
     letter-spacing: 1px;
     color: #6E4124;
-    transform: translateY(-190px);
+    transform: translateY(-80px);
     text-shadow:
-        0 10px 40px rgba(0, 0, 0, 0.25),
-        0 0 40px rgba(255, 255, 255, 0.4);
+        0 5px 10px hwb(0 0% 100% / 0.351),
+        0 0 30px rgba(255, 255, 255, 0.4);
 }
 
 .glass-card p {
@@ -161,8 +165,9 @@ nav a:hover {
     font-weight: 400;
     line-height: 1.8;
     color: #6E4124;
-    
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .cta-button {
     display: inline-block;
@@ -196,37 +201,60 @@ nav a:hover {
 
     z-index: 1;
 
-    /* Soft shadow */
+    
     filter: drop-shadow(0 10px 30px hsla(0, 0%, 0%, 0.689));
 }
 
 
 .coffee-beans.left {
     left: 50%;
-    top: 42%;
+    top: 52%;
     transform: translate(-100%, -15%) rotate(-90deg)  scaleX(-1);
 }
 
 
 .coffee-beans.right {
     left: 50%;
-    top: 42%;
+    top: 52%;
     transform: translate(0%, -15%) rotate(90deg);
 }
 /* =========================
    MENU SECTION
 ========================= */
 
-.menu{
-    background:#F8F3EB;
-    padding:80px 10%;
+.menu {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+
+    padding: 80px 10%;
+    background: #F8F3EB;
+
+    box-shadow:
+        0 -15px 35px rgba(0, 0, 0, 0.2),
+        0 15px 35px rgba(0, 0, 0, 0.2);
 }
+
+.menu::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: url("../img/Texture-white.jpg") center 70% / cover no-repeat;
+    opacity: .7; /* Adjust this value */
+
+    z-index: -1;
+}
+
 
 .menu-title{
     text-align:center;
     font-size:42px;
     color:#4B2E2E;
     margin-bottom:50px;
+    text-shadow:
+        0 5px 10px hwb(0 0% 100% / 0.351),
+        0 0 30px rgba(255, 255, 255, 0.4);
 }
 
 .menu-container{
@@ -234,6 +262,7 @@ nav a:hover {
     justify-content:center;
     gap:25px;
     flex-wrap:wrap;
+    
 }
 
 .menu-card{
@@ -261,6 +290,7 @@ nav a:hover {
 .menu-content h3{
     color:#5B3A29;
     margin-bottom:15px;
+    
 }
 
 .menu-content ul{
