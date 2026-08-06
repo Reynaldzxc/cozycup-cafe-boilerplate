@@ -355,9 +355,56 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
-footer {
-    background-color: #4c3c32;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+.footer {
+    background: linear-gradient(
+    to right,
+    #f8f2e0 -20%,
+    #4c3c32 100%
+    );
+    padding:18px 60px;
+
+}
+
+
+.footer-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin:auto;
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+.footer-icons{
+    display:flex;
+    gap:20px;
+    
+}
+
+.footer-icons img {
+    width: 24px;      
+    height: auto;
+    display: block;
+}
+
+.footer-text{
+    color:white;
+    font-size: 16px;
+}
+
+.footer-icons p{
+    color:white;
+    padding-top: 5px;
+}
+
+.footer-bottom p {
+ background: linear-gradient(
+    to right,
+    #f8f2e0 -20%,
+    #4c3c32 100%
+    );
+color: white;
+text-align: center;
+
 }
