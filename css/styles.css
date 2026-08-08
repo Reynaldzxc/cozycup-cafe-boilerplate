@@ -132,7 +132,7 @@ nav a:hover {
     position: relative;
     z-index: 2;
     margin-top: 50px;
-    padding: 20px 40px;
+    padding: 40px 40px;
     transform: translateY(110px);
     border-radius: 35px;
 
@@ -218,9 +218,6 @@ nav a:hover {
     top: 52%;
     transform: translate(0%, -15%) rotate(90deg);
 }
-/* =========================
-   MENU SECTION
-========================= */
 
 .menu {
     position: relative;
@@ -318,13 +315,35 @@ nav a:hover {
     border-radius:15px;
     margin-left:20px;
 }
-
-
 .about {
-    padding: 100px 0;
-    text-align: center;
-    background-color: #ede4d6;
+    position: relative;
+    overflow: hidden;
 }
+
+.about-glass {
+    width: 800px;
+    height: 300px;
+    max-width: 90%;
+
+    position: relative;
+    z-index: 3;
+
+    padding: 40px;
+
+    border-radius: 35px;
+
+    background: hsla(0, 0%, 100%, 0.293);
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    left: -25%;
+    transform: translateX(200px);
+}
+
 
 .about h2 {
     font-size: 30px;
@@ -336,6 +355,32 @@ nav a:hover {
     max-width: 800px;
     margin: 0 auto;
     color:black;
+}
+.coffee-design{
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translate(-100%, -30%) rotate(90deg);
+    z-index: 1;
+    filter: drop-shadow(0 10px 30px hsla(0, 0%, 0%, 0.689));
+    
+}
+.coffee-design.Coffee-cup{
+    left: 110%;
+    width: 40%;
+    top: 45%;
+   
+    transform: translate(-100%, -15%) rotate(-60deg);
+}
+.coffee-design.Coffee-spill{
+     left: 110%;
+    width: 60%;
+    filter:
+    blur(2px)
+    drop-shadow(0 10px 30px rgba(0, 0, 0, 0.4));
+    top: 38%;
+    z-index: 0;
+    transform: translate(-100%, -15%) rotate(-100deg)  scaleX(1);
 }
 
 .contact {
