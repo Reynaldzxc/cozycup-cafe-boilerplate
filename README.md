@@ -38,6 +38,7 @@ The About section provides information about CozyCup Café and its concept.
 
 
 <img src="https://github.com/DarielJean.png" width="150" style="border-radius: 50%;">
+<img src="https://github.com/reynaldzxc.png" width="150" style="border-radius: 50%;">
 
 **Name:** Dariel Jean Delos Santos / Reynald Alapad
 
