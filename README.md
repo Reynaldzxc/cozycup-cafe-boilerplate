@@ -33,10 +33,13 @@ The About section provides information about CozyCup Café and its concept.
 
 ![CozyCup Café Menu](screenshots/Screenshot%202026-08-09%20132212.png)
 
+The Menu section shows the available products of CozyCup Café
+
 ### Contact Us
 
-![CozyCup Café Menu](screenshots/Screenshot 2026-08-09 132231.png)
+![CozyCup Café Contact Us](screenshots/Screenshot%2026-08-09%132231.png)
 
+This are the available platforms where you can contact us
 
 ## About the Authors
 
