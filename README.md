@@ -35,6 +35,8 @@ The About section provides information about CozyCup Café and its concept.
 
 ## About the Authors
 
+
+
 <img src="https://github.com/DarielJean.png" width="150" style="border-radius: 50%;">
 
 **Name:** Dariel Jean Delos Santos / Reynald Alapad
@@ -43,16 +45,17 @@ The About section provides information about CozyCup Café and its concept.
 **Email:** naldsolaalapad@gmail.com
 
 <a href="https://www.facebook.com/darieljean.delossantos">
-  <img src="img/facebook.png" width="40">
+    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Facebook.svg" width="40">
 </a>
-<a href="https://www.facebook.com/www.facebook.com/reynald.alapad.50">
-  <img src="img/facebook.png" width="40">
+<a href="https://www.facebook.com/reynald.alapad.50">
+    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Facebook.svg" width="40">
 </a>
+
 
 <a href="https://github.com/DarielJean">
-  <img src="img/github.png" width="40">
+    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Github.svg" width="40">
+</a>
+<a href="https://github.com/reynaldzxc">
+    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Github.svg" width="40">
 </a>
 
-<a href="https://github.com/reynaldzxc">
-  <img src="img/github.png" width="40">
-</a>
