@@ -19,27 +19,19 @@ CozyCup Café is a café website designed to showcase the café's menu, atmosphe
 
 ### Home Section
 
-![CozyCup Café Home](screenshots/Screenshot 2026-08-09 132202.png)
+![CozyCup Café Home](screenshots/Screenshot%202026-08-09%20132202.png)
 
 The home section welcomes visitors with a coffee-themed design and introduces CozyCup Café.
 
 ### About Section
 
-![CozyCup Café About](screenshots/Screenshot 2026-08-09 132220.png)
+![CozyCup Café About](screenshots/Screenshot%202026-08-09%20132220.png)
 
 The About section provides information about CozyCup Café and its concept.
 
 ### Menu Section
 
-![CozyCup Café Menu](screenshots/Screenshot 2026-08-09 132212.png)
-
-The menu section showcases the café's coffee and food selections.
-
-### Contact Section
-
-![CozyCup Café Contact](screenshots/Screenshot 2026-08-09 132231.png)
-
-The contact section provides information for visitors who want to connect with the café.
+![CozyCup Café Menu](screenshots/Screenshot%202026-08-09%20132212.png)
 
 ## About the Authors
 
