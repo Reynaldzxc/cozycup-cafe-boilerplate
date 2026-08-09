@@ -41,20 +41,30 @@ The About section provides information about CozyCup Café and its concept.
 
 **Name:** Dariel Jean Delos Santos / Reynald Alapad
 
-**Email:** darieljeandelossantos@gmail.com
-**Email:** naldsolaalapad@gmail.com
 
+**Dariel Jean Delos Santos**
+**Dariel Jean Email:** darieljeandelossantos@gmail.com
+
+Facebook:
 <a href="https://www.facebook.com/darieljean.delossantos">
     <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Facebook.svg" width="40">
 </a>
+
+Github: 
+<a href="https://github.com/DarielJean">
+    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Github.svg" width="40">
+</a>
+
+
+**Reynald Alapad**
+**Reynald Email:** naldsolaalapad@gmail.com
+
+Facebook:
 <a href="https://www.facebook.com/reynald.alapad.50">
     <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Facebook.svg" width="40">
 </a>
 
-
-<a href="https://github.com/DarielJean">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Github.svg" width="40">
-</a>
+Github:
 <a href="https://github.com/reynaldzxc">
     <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Github.svg" width="40">
 </a>
